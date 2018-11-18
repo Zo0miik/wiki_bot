@@ -22,7 +22,7 @@ def main():
 
     ''' авторизоваться как сообщество'''
 
-    vk_session = vk_api.VkApi(token = 'ead598049083fd8e4bad90377f27b2949148b9acaff986e72c12aea3c9b12f210f5e0592d52060f977f40')
+    vk_session = vk_api.VkApi(token = '')
     vk = vk_session.get_api()
     upload = VkUpload(vk_session) # для изображений
     longpool = VkLongPoll(vk_session)
